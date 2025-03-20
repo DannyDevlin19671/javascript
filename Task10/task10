@@ -1,0 +1,17 @@
+// Concurrently fetch multiple characters using async/await and Promise.all
+async function getMultipleCharacters() {
+  const urls = [
+    "https://swapi.dev/api/people/1/",
+    "https://swapi.dev/api/people/2/",
+    "https://swapi.dev/api/people/3/"
+  ];
+
+  try {
+    const results = await Promise.all(urls.map(url => fetch(url).then(res => res.json())));
+    console.log(results); // Array of character objects
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+getMultipleCharacters();
