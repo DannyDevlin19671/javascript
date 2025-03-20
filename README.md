@@ -104,6 +104,5 @@ Fetch details concurrently for three characters (ids: 1, 2, 3) using `async/awai
 - **Intermediate Level**: Tasks 5–8
 - **Advanced Level**: Tasks 9–10
 
-Feel free to extend tasks with your own ideas and explore the Star Wars API further!
 
 Good luck, and may the Force be with you!
