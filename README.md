@@ -98,11 +98,4 @@ Log the full JSON response.
 Fetch details concurrently for three characters (ids: 1, 2, 3) using `async/await` and `Promise.all()`. Log an array containing details of each character.
 
 ---
-
-## Completion Guidelines:
-- **Beginner Level**: Tasks 1–4
-- **Intermediate Level**: Tasks 5–8
-- **Advanced Level**: Tasks 9–10
-
-
 Good luck, and may the Force be with you!
